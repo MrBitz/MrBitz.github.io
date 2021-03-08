@@ -4,9 +4,3 @@ a:link, a:visited, a:hover, a:active {
   background-color: #48cae4;
   padding: 14px 25px;
 }
-
-body {
-  background-image: url('colors.jfif');
-  background-repeat: no-repeat;
-  background-size: 100% 100%
-}
