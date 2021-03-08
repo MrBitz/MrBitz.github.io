@@ -4,6 +4,6 @@ function clicked(){
   if (code === "0001"){
     document.getElementById("info").innerHTML = "This is the beta error. Since the program isn't completely made and tested it has errors.";
   } else {
-    document.getElementById("info").innerHTML = "Enter a valid code.";
+    document.getElementById("info").innerHTML = "Please enter a valid code.";
   }
 }
