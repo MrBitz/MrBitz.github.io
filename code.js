@@ -5,10 +5,10 @@ function clicked(){
   if (code === "0001"){
     document.getElementById("info").innerHTML = "You have changed variable values! Reset your console and report this if you haven't changed them.";
   }
-  else if (code === "etd"){
+  if (code === "etd"){
     window.open("https://mrbitz.github.io/etd.html", "_self");
   }
-  else if !(code in codelist){
+  if !(code in codelist){
     document.getElementById("info").innerHTML = "Please enter a valid code.";
   }
 }
