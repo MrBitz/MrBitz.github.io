@@ -10,3 +10,7 @@ body {
     margin: 0;
     background: linear-gradient(to left, #00AAFF, #9932CC);
   }
+
+p {
+  font-family: 'Trebuchet MS', sans-serif
+}
