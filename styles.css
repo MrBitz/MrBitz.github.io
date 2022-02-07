@@ -3,6 +3,7 @@ a:link, a:visited, a:hover, a:active {
   text-decoration: none;
   background-color: #48cae4;
   padding: 14px 25px;
+  font-family:verdana
 }
 
 body {
