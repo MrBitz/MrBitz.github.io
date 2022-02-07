@@ -1,4 +1,5 @@
 function clicked(){
+  const codelist = ["0001", "etd"];
   var code = document.getElementById("Code").value;
   String(code)
   if (code === "0001"){
@@ -7,10 +8,7 @@ function clicked(){
   else if (code === "etd"){
     window.open("https://mrbitz.github.io/etd.html", "_self");
   }
-  else if (code === ""){
-    document.getElementById("info").innerHTML = "Please enter a valid code.";
-  }
-  else {
+  else if !(code in codelist){
     document.getElementById("info").innerHTML = "Please enter a valid code.";
   }
 }
