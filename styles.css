@@ -26,6 +26,9 @@ h3 {
 }
 
 ul {
-  list-style-type:disc
+  list-style-type:none
+}
+
+li {
   font-family: 'Trebuchet MS', sans-serif
 }
