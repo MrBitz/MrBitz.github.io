@@ -24,3 +24,8 @@ h1 {
 h3 {
   font-family:verdana
 }
+
+ul {
+  list-style-type:disc
+  font-family: 'Trebuchet MS', sans-serif
+}
