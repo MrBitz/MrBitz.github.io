@@ -5,6 +5,6 @@ function clicked(){
     document.getElementById("info").innerHTML = "You have changed variable values! Reset your console and report this if you haven't changed them.";
   }
   if (code === "etd"){
-    window.open("https://mrbitz.github.io/etd.html", "_self");
+    window.open("https://mrbitz.github.io/etd.html", "_parent");
   }
 }
